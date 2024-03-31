@@ -1,0 +1,29 @@
+List templ: 
+chapter: 1.1, caption: full-cnn-classifier, description: 完整的分类器案例，编译模型到推理过程
+chapter: 1.2, caption: yolov5-detect, description: yolov5-6.0的模型编译到推理过程，无封装裸代码
+chapter: 1.3, caption: yolox-detect, description: yolox的模型编译到推理过程，无封装裸代码
+chapter: 1.4, caption: retinaface-detect, description: retinaface的模型编译到推理过程，无封装裸代码
+chapter: 1.5, caption: unet, description: unet的模型编译到推理过程，无封装裸代码
+chapter: 1.6, caption: chinese-classifer-bert, description: 中文分类模型，基于bert的模型编译到推理过程，无封装裸代码
+chapter: 1.7, caption: huggingface-ner, description: 命名实体识别，基于huggingface的tensorRT模型推理和转换，裸代码
+chapter: 1.8, caption: alphapose, description: 最新版alphapose模型的编译和推理过程，裸代码
+chapter: 1.9, caption: mmdetection-yolox, description: mmdetection中导出yolox，并进行推理过程
+chapter: 1.10, caption: yolov5-obb, description: 基于yolov5的旋转框目标检测
+chapter: 1.11, caption: onnxruntime, description: 基于onnxruntime的模型推理
+chapter: 1.12, caption: multithread, description: 模型推理中的多线程的设计思想和主要组件
+chapter: 1.13, caption: builder, description: 对模型编译构建进行封装
+chapter: 1.14, caption: memory, description: 对内存分配进行封装
+chapter: 1.15, caption: tensor, description: 对张量进行封装
+chapter: 1.16, caption: infer, description: 对推理过程进行封装
+chapter: 1.17, caption: multi-thread-yolov5, description: 实际案例，多线程yolov5的封装
+chapter: 1.18, caption: integrate-full-yolov5, description: 实际案例，完全的tensorRT封装，完整封装yolov5
+chapter: 1.19, caption: insightface, description: insightface人脸识别案例
+chapter: 1.20, caption: self-driving, description: 自动驾驶中的车道线检测、车辆检测、深度估计、道路分割的案例，adas案例
+chapter: 1.21, caption: multi-camera-decoder, description: 多摄像头硬件解码器混合解码，底显存占用
+chapter: 1.22, caption: resful-http, description: 基于resful的目标检测api服务器
+chapter: 1.23, caption: openvino-yolov5, description: OpenVINO的CPU推理引擎
+chapter: 1.24, caption: rknn, description: 瑞芯微的RK3399Pro类嵌入式设备推理引擎RKNN
+chapter: 1.25, caption: pybind11, description: 使用pybind11对yolov5推理进行封装，学习如何使用c++为python提供库
+chapter: 1.26, caption: openvino-integrate, description: 对openvino的集成封装，带有摔倒识别、yolov5、姿态识别、人脸检测
+chapter: 1.27, caption: lua, description: 基于lua脚本的模型推理过程，c++读取lua脚本或者lua调用c++
+Current is 1.2-yolov5-detect, yolov5-6.0的模型编译到推理过程，无封装裸代码

@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                // "/data/text2_3/miniconda3/envs/trtlearn/lib/python3.8/site-packages/trtpy/trt8cuda115cudnn8/include/**",
+                "/usr/local/cuda-11.8",
+                "/data/nvidia/cudnn11/include/**",
+                "/data/nvidia/TensorRT-8.6.1.6/include/**",
+                "/data/text2_3/miniconda3/envs/trtlearn/lib/python3.8/site-packages/trtpy/cpp-packages/opencv4.2/include/**"
+            ], // 让 intelliSense engine（语法提示，自动补全）能够找到所有需要的头文件 
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
